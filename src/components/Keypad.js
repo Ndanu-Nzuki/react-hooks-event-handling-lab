@@ -1,8 +1,8 @@
 // Code Keypad Component Here
 import React from 'react';
 
-const Keypad = () => {
-  const handleChange = () => {
+const Keypad = function (){
+  const handleChange = function(){
     console.log('Entering password...');
   };
 
